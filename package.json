@@ -1,0 +1,29 @@
+{
+  "name": "deepblog",
+  "version": "1.0.0",
+  "description": "见 [issues](https://github.com/yshaojun/blog/issues)，建设中...",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yshaojun/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yshaojun/blog/issues"
+  },
+  "homepage": "https://github.com/yshaojun/blog#readme",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.21",
+    "@vuepress/theme-default": "2.0.0-rc.96",
+    "sass-embedded": "^1.86.3",
+    "vue": "^3.5.13",
+    "vuepress": "2.0.0-rc.21"
+  }
+}
