@@ -1,7 +1,5 @@
 # React API 全面介绍
 
-# React API 全面介绍
-
 React 是一个用于构建用户界面的 JavaScript 库，它提供了一系列 API 来帮助开发者构建组件化、高效的应用。以下是 React API 的系统性介绍：
 
 ## 核心 API
