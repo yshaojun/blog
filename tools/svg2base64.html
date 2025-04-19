@@ -46,7 +46,7 @@
   <script>
     function convertSvgToBase64() {
       const svgInput = document.getElementById('svgInput').value;
-      const svgWithoutComments = svgInput.replace(/<!--[\s\S]*?-->/g, '');
+      const svgWithoutComments = svgInput.replace(/<\!--[\s\S]*?-->/g, '');
       const compressedSvg = svgWithoutComments.replace(/\s+/g, ' ');
       const base64 = btoa(unescape(encodeURIComponent(compressedSvg)));
       const markdownImage = `![SVG Image](data:image/svg+xml;base64,${base64})`;
